@@ -89,7 +89,7 @@
     font-weight: bold;
     font-size: 3rem;
     width: auto;
-    margin-bottom: .5px
+    margin-bottom: .1px
   }
   #subtitle {
     color:#aaa;
@@ -136,12 +136,16 @@
   label input:checked {
     text-decoration: line-through;
   }
+
   #bio {
     display: flex;
     padding-top: 20px;
     justify-content: center;
     color:#444;
   }
+  #bio img {
+    border-radius: 100%;
+}
   #bio article {
     padding: 0 15px ;
   }
